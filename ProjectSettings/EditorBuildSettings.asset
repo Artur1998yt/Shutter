@@ -6,21 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Proect/Scenes/StartScene.unity
-    guid: a0982fbbba017b747becd2ddeec39e0c
-  - enabled: 0
-    path: Assets/Proect/Scenes/Cutscene1.unity
-    guid: e0667f35aad9cd94d9655efe3ea2cb05
+    path: "Assets/Proect/\u0421\u0446\u0435\u043D\u044B/\u0421\u0446\u0435\u043D\u0430
+      0.unity"
+    guid: 017427bd501f13144805c3838c62deac
   - enabled: 1
-    path: Assets/Proect/Scenes/Scene1.unity
-    guid: f5d164916d7aaa1458135585893992d2
-  - enabled: 1
-    path: Assets/Proect/Scenes/Scene2.unity
-    guid: 5ef3b6b3058f6da4ea3ae51266d0820f
-  - enabled: 0
-    path: Assets/Proect/Scenes/Cutscene2.unity
-    guid: 5296a37c253798c479f6845f54d9fe08
-  - enabled: 0
-    path: Assets/Proect/Scenes/Scene3.unity
-    guid: 1d266e1510be89f4b94779b7a84ad9da
+    path: "Assets/Proect/\u0421\u0446\u0435\u043D\u044B/\u0421\u0446\u0435\u043D\u0430
+      1.unity"
+    guid: ddfdbcbaeff507d44ba82c3863fdc30c
   m_configObjects: {}
