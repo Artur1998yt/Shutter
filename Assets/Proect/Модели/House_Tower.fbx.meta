@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e346820f3edbb7c478d1191ee120d3b3
+guid: 33bde935ffddded4888199d31f07c75b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Tunel
+    second: {fileID: 2100000, guid: cd92d83bd26562c4081cacc2c7fc9b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: WaWin
-    second: {fileID: 2100000, guid: ffe0c915815a77d4588df85dfac02a9c, type: 2}
+    second: {fileID: 2100000, guid: a6a0a1d09930db54bb89cc65b43f0739, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wall
-    second: {fileID: 2100000, guid: 0577e7e298bf31848809832181ac5742, type: 2}
+    second: {fileID: 2100000, guid: 188af2b6067355e498f19b1e19f5acd5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wind
-    second: {fileID: 2100000, guid: 0f409658598760d4ea72824f827b0103, type: 2}
+    second: {fileID: 2100000, guid: 894431f1550594047996d51a6a1fede8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
