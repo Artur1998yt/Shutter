@@ -5,6 +5,8 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public HP hp;
+    public AudioSource sorce;
+    public AudioClip clip;
     
     void Start()
 
@@ -15,19 +17,21 @@ public class Health : MonoBehaviour
     void OnTriggerEnter(Collider other)
 
     {
-            if (other.gameObject.tag == "Player")
-            {
-                if (hp.helse < 100)
-                {
-                    hp.helse += 33.3f;
-                    Destroy(gameObject);
-                }
-                else
-                {
-                    
-                        
-                }
-            }
+        if(other.gameObject.tag == "Player")
+        {
+            Destroy(gameObject);
+            hp.helse += 20;
+            sorce.PlayOneShot(clip);
+        }
     }
-   
+ 
+    void Update()
+
+    {
+        if(Input.GetKeyDown(KeyCode.B))
+        {
+            hp.helse -= 50;
+        }
+    }
+
 }
