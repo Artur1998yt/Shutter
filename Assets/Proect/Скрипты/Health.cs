@@ -23,15 +23,6 @@ public class Health : MonoBehaviour
             hp.helse += 20;
             sorce.PlayOneShot(clip);
         }
-    }
- 
-    void Update()
-
-    {
-        if(Input.GetKeyDown(KeyCode.B))
-        {
-            hp.helse -= 50;
-        }
-    }
-
+    } 
+        
 }
