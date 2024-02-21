@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 76463603}
-  m_IndirectSpecularColor: {r: 0.4499632, g: 0.5000249, b: 0.5755338, a: 1}
+  m_IndirectSpecularColor: {r: 0.4499625, g: 0.5000243, b: 0.57553244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -675,6 +675,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 269eba6a950a9e24c8ae5b9347e8f193, type: 3}
+--- !u!1 &807367732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807367734}
+  - component: {fileID: 807367733}
+  m_Layer: 0
+  m_Name: WindZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!182 &807367733
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807367732}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
+--- !u!4 &807367734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807367732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1222016706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1558,6 +1604,7 @@ Terrain:
   m_AllowAutoConnect: 1
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
+  m_TreeMotionVectorModeOverride: 3
 --- !u!4 &2145789618
 Transform:
   m_ObjectHideFlags: 0
@@ -1700,18 +1747,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1037316265300602502, guid: c88161a3dddabe64cb81cfc1a5cbf1bb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581443777477802762, guid: c88161a3dddabe64cb81cfc1a5cbf1bb, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3581443777477802762, guid: c88161a3dddabe64cb81cfc1a5cbf1bb, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: -4797762031598010713, guid: c88161a3dddabe64cb81cfc1a5cbf1bb, type: 3}
-    - target: {fileID: 3581443777477802762, guid: c88161a3dddabe64cb81cfc1a5cbf1bb, type: 3}
-      propertyPath: m_SelectedEditorRenderState
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6022297372466540508, guid: c88161a3dddabe64cb81cfc1a5cbf1bb, type: 3}
