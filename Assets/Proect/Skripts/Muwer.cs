@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Muwer : MonoBehaviour {
-	public Vector3 muve { get; set; }
+    public Vector3 muvePlatform { get; set; }
+    public Vector3 muve { get; set; }
     public Vector2 rute { get; set; }
     public float sensitivity = 1.1f;
 	public Transform cam;
@@ -49,7 +50,7 @@ public class Muwer : MonoBehaviour {
 			}
 
 			if (controller.isGrounded) {
-				moveDirection = muve;
+				moveDirection = muve+muvePlatform;
 				moveDirection = transform.TransformDirection (moveDirection);
 				moveDirection *= speed;
                 if (controller.velocity.magnitude > 0.1f)
